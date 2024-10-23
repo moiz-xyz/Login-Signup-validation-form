@@ -66,3 +66,74 @@ a{
 color: black;
 text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+    body{
+        /* background-color: black;
+         */
+         background-image: url(./Screenshot\ 2024-10-23\ 151539.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position:center;
+         background-attachment: fixed;
+        margin: 0%;
+        padding: auto;
+    }
+    input,h5,h1,h2,h3,div,form{
+        margin: 0%;
+        padding: 0%;
+    }
+    .main{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       background-color: white;
+       width: 100%;
+       margin-left:0px;
+       margin-top: 100px;
+       height: 60vh;
+    }
+    .main>h4{
+        text-align: center;
+        color: black;
+        font-size: xx-large;
+        padding-top: 10px;
+    }
+    .form{
+        background-color: white;
+        width: 50%;
+    padding-left: 50px;    
+    }
+    form{
+        padding-top: 10px;
+    }
+    .form>h5{
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+    input{
+        width: 150%;
+        height:8vh;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+    
+    button{
+        background-color:black;
+    
+        color: white;
+        width: 100%;
+        height: 7vh;
+        font-size: x-large;
+        margin-top: 15px;
+        margin-left: 30px;
+        text-align: center;
+        border-radius:100px ;
+    }
+    p{
+        width: 150%;
+        font-weight: 600;
+        font-size: large;
+    }
+    a{
+    color: black;
+    text-decoration: none;
+    }
+}
